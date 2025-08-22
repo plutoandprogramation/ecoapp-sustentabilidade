@@ -1,0 +1,168 @@
+body {
+    background-color: #000000;
+    padding: 16px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+img {
+    
+    max-width: 100%;
+    margin-top: 20px;
+
+}
+
+ul {
+
+    list-style: none;
+    padding: 0px;
+}
+
+.logo-senac {
+    width: 160px;
+    margin-bottom: 17px;
+    
+}
+
+.lista-botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+
+    background-color:#5A9C56;
+    color: rgb(0, 0, 0);
+    padding: 23px;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 12px;
+    line-height: 85%;
+}
+
+.curso-item {
+    background-color: #202020;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 32px;
+    border: 3px solid #5A9C56;
+}
+
+.PARAGRAFO {
+
+    color: #d2d2d2;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+li {
+    color: white;
+}
+
+.curso-texto {
+    padding: 24px;
+
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+.curso-texto li {
+    background-color: #4d4d4d;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.curso-texto ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.curso-texto span {
+
+    height: 5px;
+    width: 27px;
+    background-color: #5A9C56;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 2s ease;
+
+}
+
+.curso-texto a {
+
+    background-color: #161649;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    position: absolute;
+    top: 20px;
+    right: -65px;
+    width: 200px;
+    text-align: center;
+    transform: rotate(45deg);
+}
+
+.curso-item:hover span {
+    width: 120px;
+
+}
+
+button {
+    color: #4d4d4d00;
+    background-color: #d2d2d200;
+}
+
+.cursos-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+footer{
+
+    color: #ffffff;
+    text-align: center;
+    opacity: 0.4;
+   
+}
+
+iframe{
+    border-radius: 12px;
+}
+.contato{
+    background-color: #202020;
+    padding: 24px;
+    border-radius: 10px;
+}
+.contato-redes{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.contato-informacoes{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+h3{
+    color: aliceblue;
+}
+
